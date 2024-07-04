@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "imagen": "https://i.pinimg.com/564x/fc/60/b1/fc60b18b9ff6462735ee4840d66291b3.jpg",
+      "producto": "Paquete taza pokemón",
+      "precio": 300
+    },
+    {
+      "id": "2",
+      "imagen": "https://scontent.fmex22-1.fna.fbcdn.net/v/t45.5328-4/448501508_7963361167054242_9147281096841799937_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_eui2=AeG8-mg00x6tbXgo2kbNlRtimhdyKTu6qROaF3IpO7qpE3BZEuG71qiDuNL0am3dMk8&_nc_ohc=UEhfs-eCvvQQ7kNvgEjhZvz&_nc_ht=scontent.fmex22-1.fna&oh=00_AYAk4C0Nw9rl6uzKMSpc2pK6yOn-34eFmP0Nx8eNDhdmDg&oe=668B36E4",
+      "producto": "Taza Jinx Arcane",
+      "precio": 120
+    },
+    {
+      "id": "3",
+      "imagen": "https://scontent.fmex5-1.fna.fbcdn.net/v/t45.5328-4/449867935_445742714892519_4602270133117316082_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_eui2=AeGCyS6WI8CmgfpoJgbQaDcrduGLZsTaMr524YtmxNoyvq4bOyM1OEW5cbvK16mAGXA&_nc_ohc=3JuwO3NWUQ4Q7kNvgGPfesF&_nc_ht=scontent.fmex5-1.fna&oh=00_AYC_6l8lhWuKSpt3cOq0aTcBMcp7OT3I9J_bL1Zvc0G-vA&oe=668B2059",
+      "producto": "Playera MHA",
+      "precio": 150
+    },
+    {
+      "id": "0d66",
+      "imagen": "https://scontent.fmex5-1.fna.fbcdn.net/v/t45.5328-4/449846754_933174685231932_8027110986379341474_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_eui2=AeESEjcxeXJLjqrHYhOgd7GZ1ksCCWgDv1PWSwIJaAO_Uy2aGDLemLV_IY4gi166lvU&_nc_ohc=r_kJADbYkscQ7kNvgE9Mgen&_nc_ht=scontent.fmex5-1.fna&oh=00_AYBLLDCxoMZ9tnW02I4P1ix4HEpw8dqyVA6ts_aCW8EpSA&oe=668B38D9",
+      "producto": "playera mha",
+      "precio": "150"
+    }
+  ]
+}

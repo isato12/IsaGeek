@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IsaGeek</title>
+  <link rel="stylesheet" href="/src/css/reset.css">
+  <link rel="stylesheet" href="/src/css/style.css" />
+
+</head>
+
+<body>
+  <header class="header__page">
+    <img src="/src/assets/img/logo.png" alt="logotipo">
+  </header>
+  <main class="contenido__principal">
+    <form class="container__formulario" data-formulario>
+      <h2 class="formulario__titulo">¡Ingresa un artículo!</h2>
+        <div class="formulario__campo">
+          <label class="campo__etiqueta" for="imagem">Imagen del artículo</label>
+          <input name="imagem" class="campo__escrita" required placeholder="Inserta la URL de la imagen" id='imagem'
+            data-imagen />
+        </div>
+        <div class="formulario__campo">
+          <label class="campo__etiqueta" for="producto">Producto</label>
+          <input name="producto" class="campo__escrita" required placeholder="ingresa el artículo" id='producto'
+            type="text" data-producto />
+        </div>
+
+
+        <div class="formulario__campo">
+          <label class="campo__etiqueta" for="precio">Precio</label>
+          <input name="precio" class="campo__escrita" type="number" required placeholder="precio del artículo"
+            id='precio' data-precio />
+        </div>
+
+
+        <div class="botones">
+          <input class="formulario__boton" type="submit" />
+          <input class="formulario__boton" id="limpiar" name="Limpiar" type="reset" value="Limpiar" />
+        </div>
+    </form>
+    <section>
+      <h2 class="articulo__titulo">Artículos disponibles</h2>
+      <!-- mostrar contenido -->
+      <div class="articulos" data-productos>
+        <!-- productos via base de datos y js -->
+      </div>
+    </section>
+
+  </main>
+  <script type="module" src="/src/js/mostrarProducto.js"></script>
+  <script type="module" src="/src/js/crerarProducto.js"></script>
+  <!-- <script type="module" src="/src/js/eliminarProducto.js"></script> -->
+</body>
+
+</html>
